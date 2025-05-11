@@ -241,7 +241,7 @@ For HTTP transport, you might need to add authentication:
 import { HttpServerTransport } from "@modelcontextprotocol/sdk/server/http.js";
 
 const transport = new HttpServerTransport({
-  port: 3000,
+  port: 3030,
   auth: async (req) => {
     const token = req.headers.authorization?.split(" ")[1];
     if (token !== "your-secret-token") {

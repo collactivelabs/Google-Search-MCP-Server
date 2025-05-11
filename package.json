@@ -11,7 +11,7 @@
     "start:all": "concurrently \"npm run start:python\" \"npm run start\""
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.1",
+    "@modelcontextprotocol/sdk": "^1.11.1",
     "@mozilla/readability": "^0.6.0",
     "@types/turndown": "^5.0.5",
     "axios": "^1.7.9",
@@ -30,8 +30,21 @@
     "@types/express": "^4.17.21",
     "@types/jsdom": "^21.1.7",
     "@types/markdown-it": "^14.1.2",
-    "@types/node": "^20.17.21",
+    "@types/node": "^20.17.46",
     "concurrently": "^9.1.0",
-    "typescript": "^5.7.2"
-  }
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/collactivelabs/Google-Search-MCP-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/collactivelabs/Google-Search-MCP-Server/issues"
+  },
+  "homepage": "https://github.com/collactivelabs/Google-Search-MCP-Server#readme"
 }

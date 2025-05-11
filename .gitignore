@@ -1,0 +1,6 @@
+node_modules
+dist
+
+# Docker environment variables
+.env.docker
+export_env.sh
